@@ -23,7 +23,7 @@ The model was trained on the "Chest X-Ray Images (Pneumonia)" dataset from Kaggl
 
 <p align="center">
   <figure>
-    <img width="1440" height="807" alt="Different X-Rays" src="PASTE_YOUR_CORRECT_THIRD_LINK_HERE" />
+    <img width="1440" height="807" alt="Different X-Rays" src="https://github.com/user-attachments/assets/b24ac1e9-81c1-410d-ae74-6fe2900cbf21" />
     <figcaption align="center"><i>Figure 3: Visual comparison of Normal, Bacterial Pneumonia, and Viral Pneumonia chest X-rays.</i></figcaption>
   </figure>
 </p>
