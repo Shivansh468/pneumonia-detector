@@ -1,13 +1,32 @@
 # 🩺 Deep Learning Pneumonia Detector
 
-[INSERT_APP_SCREENSHOT_LINK_HERE]
+<p align="center">
+  <figure>
+    <img width="1440" height="808" alt="App interface" src="https://github.com/user-attachments/assets/d1231e8e-d5c6-4ff3-a77b-b85005166625" />
+    <figcaption align="center"><i>Figure 1: The clean Streamlit user interface upon launch, ready for image upload.</i></figcaption>
+  </figure>
+</p>
 
 A full-stack deep learning web application that classifies chest X-rays to detect Pneumonia using Transfer Learning (ResNet18) and a Streamlit frontend. Built with PyTorch and optimized for Apple Metal Performance Shaders (MPS).
+
+## Usage & Live Demo
+
+<p align="center">
+  <figure>
+    <img width="1440" height="807" alt="App with prediction" src="https://github.com/user-attachments/assets/d7f67854-6198-43cf-afb1-c59ea7a8cdea" />
+    <figcaption align="center"><i>Figure 2: The pipeline successfully classifying an uploaded X-ray with high confidence.</i></figcaption>
+  </figure>
+</p>
 
 ## The Dataset
 The model was trained on the "Chest X-Ray Images (Pneumonia)" dataset from Kaggle (Paul Mooney), containing 5,863 JPEG images split into Normal and Pneumonia categories.
 
-[INSERT_DATASET_SAMPLES_LINK_HERE]
+<p align="center">
+  <figure>
+    <img width="1440" height="807" alt="Different X-Rays" src="PASTE_YOUR_CORRECT_THIRD_LINK_HERE" />
+    <figcaption align="center"><i>Figure 3: Visual comparison of Normal, Bacterial Pneumonia, and Viral Pneumonia chest X-rays.</i></figcaption>
+  </figure>
+</p>
 
 ## Architecture & Pipeline
 The core engine relies on a ResNet18 Convolutional Neural Network. We utilized Transfer Learning by freezing the pre-trained core layers and replacing the final fully connected layer to output two classes. 
