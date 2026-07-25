@@ -26,7 +26,7 @@ uploaded_file = st.file_uploader("Choose an X-ray image...", type=["jpg", "png",
 if uploaded_file is not None:
     # Display the image preview
     image = Image.open(uploaded_file)
-    st.image(image, caption='Uploaded X-ray', use_column_width=True)
+    st.image(image, caption='Uploaded X-ray', width="stretch")
     st.write("")
     
     # Add an "Analyze Image" button
