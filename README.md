@@ -1,4 +1,5 @@
 # 🩺 Deep Learning Pneumonia Detector
+**🔴 [Live Demo: Try the App Here](https://pneumonia-detector-ytodkskzvoksqvqorxlsnp.streamlit.app/)**
 
 <p align="center">
   <figure>
